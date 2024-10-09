@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    position: absolute;
+}
+.css-2uchni{
+    display: none;
+}
+.stng{
+    display: none;
+}
+.css-1t6c9ts button a{
+    color: white;
+}
+.back{
+    color: white;
+    background-image: url('https://www.themezaa.com/html/pofo/images/parallax-bg46.jpg');
+    background-position: center;
+    height: 83vh;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.back::before{
+    content: '';
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.696);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.front{
+    z-index: 999;
+    padding: 160px 30px;
+}
+.front h2{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    line-height:1.5;
+    letter-spacing: 2px;
+    font-weight: bolder;
+   
+   
+   
+}
+.front p{
+   font-size: large;
+   color: rgba(240, 248, 255, 0.701); 
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+.css-1tima0s-MuiTypography-root{
+    padding: 100px;
+    
+} 
+
+/* skill */
+.css-1v5z18m {
+    width: 500px !important;
+   
+}
+.css-nl6333-MuiSlider-track {
+    height: 3px !important;
+}
+.css-14eyfr9-MuiSlider-thumb {
+
+    background-color: transparent !important;
+}
+.css-15gm0yv-MuiSlider-root{
+    color: black !important;
+    height: 3px;
+}
+
+.Last{
+    background-image: url('https://www.themezaa.com/html/pofo/images/parallax-bg47.jpg');
+    background-position: center;
+    height: 140vh;
+    background-size: cover;
+}
+/* footer */
+.css-4szr1q-MuiTypography-root .css-37jdci-MuiTypography-root:hover .css-37jdci-MuiTypography-root{
+    color: black;
+}
+
+
+/* page-services*/
+.back1{
+    background-image: url('https://www.themezaa.com/html/pofo/images/services-bg.jpg');
+    color: white;
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+/* page-About */
+.aboutback{
+    color: white;
+    background-image: url('https://www.themezaa.com/html/pofo/images/about-banner.jpg');
+    /* background-position: center; */
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    
+}
+.aboutback::before{
+   
+    content: '';
+    position: absolute;
+    background-color:rgba(19, 19, 19, 0.696);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.abfront{
+    /* z-index: +999!important; */
+    padding: 160px 30px;
+}
+.abfront h2{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    line-height:1.5;
+    letter-spacing: 2px;
+    font-weight: bolder;
+   
+   
+   
+}
+.abfront p{
+   font-size: large;
+   color: rgba(240, 248, 255, 0.701); 
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+.abpart1write{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cmpny{
+    background-image: url('https://www.themezaa.com/html/pofo/images/homepage-9-parallax-img5.jpg');
+    background-attachment: fixed;
+}
+.css-cvfjli-MuiTypography-root{
+    margin: 0px;
+}
+
+.beforeblack{
+    background-color: rgba(0, 0, 0, 0.797);
+}
+.before{
+    display:none;
+}
+.talent:hover .before{
+   display: block;
+}
+/* page-contect */
+.contectback{
+    color: white;
+    background-image: url('https://www.themezaa.com/html/pofo/images/contact-banner.jpg');
+    /* background-position: center; */
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    
+}
+.contectback::before{
+    
+    content: '';
+    position: absolute;
+    background-color:rgba(19, 19, 19, 0.696);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.contectfront{
+    padding: 160px 30px; 
+}
+.contectfront h2{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    line-height:1.5;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.contectfront p{
+    font-size: large;
+   color: rgba(240, 248, 255, 0.701); 
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+
+/*page- Team */
+.Teamback{
+    color: white;
+    background-image: url('https://www.themezaa.com/html/pofo/images/parallax-bg26.jpg');
+    /* background-position: center; */
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.Teamback::before{
+    
+    content: '';
+    position: absolute;
+    background-color:rgba(19, 19, 19, 0.692);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.Teamfront{
+    padding: 160px 30px; 
+}
+.Teamfront h2{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    line-height:1.5;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.Teamfront p{
+    font-size: large;
+   color: rgba(240, 248, 255, 0.701); 
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.Teampart1heading{
+    background-image: url('https://www.themezaa.com/html/pofo/images/parallax-bg27.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+
+.beforepink{
+    background-color: rgba(252, 59, 126, 0.811);
+    height: 25%;
+}
+.Teamlastbtn:hover button{
+    background-color: rgba(252, 59, 126, 0.811);
+    color: white;
+}
+
+
