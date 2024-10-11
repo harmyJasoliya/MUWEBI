@@ -6,26 +6,15 @@ import {
   Route,
 } from "react-router-dom";
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-
 import Footer from './Component/Footer';
 import Header from './Component/Header';
-
 import Home from './Home';
-
-
-// temporary
+//pages
 import Services from './Component/pages/Services/Services';
 import About from './Component/pages/About/About';
 import Contect from './Component/pages/contect/Contect';
 import Team from './Component/pages/Team/Team';
-
-
-
-
-
-
 const pages = ['HOME', 'PAGES', 'PORTFOLIO', 'BLOG', 'ELEMENTS', 'FEATURES'];
-// const settings = ['HOME', 'PAGES', 'PORTFOLIO', 'BLOG', 'ELEMENTS', 'FEATURES'];
 
 function App() {
 

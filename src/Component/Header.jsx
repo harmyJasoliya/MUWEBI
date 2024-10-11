@@ -9,10 +9,8 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
-// import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
@@ -20,10 +18,6 @@ import MenuItem from '@mui/material/MenuItem';
 import { dividerClasses } from '@mui/material';
 // icon
 import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import Stack from '@mui/material/Stack';
 import { pink } from '@mui/material/colors';
@@ -34,10 +28,11 @@ const settings = ['Home', 'About', 'Services', 'contect', 'Team'];
 function Header() {
   return (
     <>
-      <AppBar position="static"
+      <AppBar 
         sx={{
           backgroundColor: "black",
-          class: 'navbar'
+          class: 'navbar',
+          position:"static",
         }}
       >
         <Container maxWidth="xl">
@@ -84,25 +79,6 @@ function Header() {
                 </Box>
               </Router>
 
-            </Typography>
-
-
-            <Typography>
-              <SearchIcon
-                sx={{
-                  margin: '10px',
-                  marginTop: '10px',
-                  fontSize: '20px',
-                }}
-              />
-            </Typography>
-            <Typography>
-              <FacebookOutlinedIcon sx={{
-                paddingLeft: '10px', borderLeft: 1,
-                borderLeftColor: 'gray', fontSize: '20px',
-              }} />
-              <TwitterIcon sx={{ paddingLeft: '10px', fontSize: '20px', }} />
-              <SportsBasketballIcon sx={{ paddingLeft: '10px', fontSize: '20px', }} />
             </Typography>
           </Toolbar>
         </Container>
